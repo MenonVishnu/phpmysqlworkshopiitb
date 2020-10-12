@@ -101,7 +101,7 @@
         $to = $_POST['mail'];
         $subject = "Score of $username";
         $body = $score;
-        $headers = "From: admin@gmail.com";
+        $headers = "From: admin@gmail.com"; //admin mail
         mail($to, $subject, $body, $headers);
         echo "mail sent!";
       }
